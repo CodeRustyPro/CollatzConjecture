@@ -1,10 +1,10 @@
 #include <stdio.h>
-
 int main(){
 	printf("Hello\n");
-	int num,num2,c,d;
+	int num;
 	printf("\nEnter a number : ");
 	scanf("%d",&num);
+	printf("%d ",num);
 	while (num!=1)
 	{
 		if(num%2!=0){
@@ -16,6 +16,6 @@ int main(){
 			printf("%d ",num);
 		}
 	}
-	
+	printf("\n");
 	return 0;
 }
